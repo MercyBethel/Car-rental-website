@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stayles.css">
+   
+    <script type="text/javascript" src="javascript.js"></script>
+
+    
+</head>
+<body>
+     <form action="ww.php" class="signin" style="height: 480px;margin-top: 55px;" method="post" name="myForm"  >
+    
+        <h2 >Register</h2>
+      
+        <small id="demo"></small>
+        <small id="demo1"></small>
+        <small id="demo2"></small>
+        <small id="demo3"></small>
+        <div class="icontf">
+            <i class="fa-solid fa-user icon"></i>
+            <input type="text" name="name" placeholder="name" required onkeyup="return validateLogin()"/>
+
+        </div>
+
+        <div class="icontf">
+            <i class="fa-solid fa-envelope icon"  ></i>
+            <input type="text" name="email" id="email" placeholder="email" required onkeyup="return validateLogin()"/>
+
+        </div>
+
+        <div class="icontf">
+            <i class="fa-solid fa-key icon" ></i>
+            <input type="password" name="password" placeholder="password" required onkeyup="return validateLogin()"/>
+            
+        </div>
+
+        <div class="icontf">
+            <i class="fa-solid fa-key icon" style="color: #000000;"></i>
+            <input type="number" name="age" placeholder="age" style="width: 230px;" required onkeyup="return validateLogin()"/>
+
+        </div>
+          
+        
+            <input type="submit" name="insert"value="Submit" class="btn"/>
+         
+          
+
+           
+     </form>
+</body>
+</html>
